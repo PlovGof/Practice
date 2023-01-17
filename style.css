@@ -1,0 +1,181 @@
+html,body {
+   background-image:url(../Background1.png);
+   padding: 0%;
+   margin: 0%;
+   font-family: Damavand-Regular;
+   font-size: 1.2em;
+   
+}
+
+/* all */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0;
+    align-items:center;
+    text-align: center;
+}
+
+
+h4, h2,h1,h3,p,pre{
+    color: rgb(255, 255, 255);
+}
+a {
+    text-decoration: none;
+    color:rgb(204, 225, 12);
+}
+
+h4 {
+    margin: 0%;
+    text-align: left;
+}
+
+h1{
+    margin: 3em 0em 1em;
+}
+
+/* Header */
+
+.header {
+    display: grid;
+    justify-content: left;
+    grid-template-columns:  2fr 1.9fr 0.8fr 0.8fr;
+    grid-template-rows: auto auto;
+    gap: 1fr; 
+    margin: 0 2em 0 2em;  
+    border: 1px solid wheat;
+    border-top: none;
+}
+
+
+
+.imgHead {
+    margin: 0.4em 0 0.2em 1.4em;
+
+}
+
+.headerA {
+    color: aliceblue;
+    grid-column-start: 3;
+    text-align: left;
+    align-self:center;
+}
+.headerA1 {
+    align-self: center;
+    text-align: left;
+    margin:0 10px 0 10px;
+    
+}
+
+
+
+
+/* main */
+
+.mainH1{
+margin-top: 1em ;
+}
+
+
+.insideImg:active{
+animation: forLogo 1ms;
+animation-iteration-count: infinite;
+transition: ease-in-out;
+}
+
+    @keyframes forLogo {
+    from {
+        transform: translate(0px);
+    }
+    50% {
+        transform: translate(2px);
+    }
+    to {
+        transform: translate(0px);
+    }
+}
+
+
+/* video */
+
+
+
+/* about */
+.aboutH1 {
+    margin-top: 4em;
+}
+
+.about {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 25% 1fr 1fr 25%;
+    grid-template-rows: auto auto auto;
+    gap: 3em 0.8em ;
+  
+}
+.firstPage {
+    width: 35em;
+}
+.firstLine {
+    grid-column-start: 2;
+}
+.secondLine {
+    grid-column-start: 2;
+}
+.firdLine {
+    grid-column-start: 2;
+}
+
+.aboutText {
+    text-align: left;
+    margin-top: 0
+}
+
+
+/*  */
+
+
+
+/* reviews */
+
+
+.textRew {
+  text-align: left;
+  width: 32em;
+ 
+}
+
+/* prices and add */
+
+
+.addInfo {
+    display: grid;
+    grid-auto-flow:column;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-items: start;
+    gap: 3em;
+    width: 33em;
+    margin-left: 0.5em;
+    
+}
+
+.addInfoH1 {
+    margin-bottom: 2em;
+}
+/*  */
+
+.footer {
+    display: flex;
+    flex-direction:column;
+    gap: 1em;
+   margin-top: 2em;
+   width: auto;
+}
+
+
+.returner {
+    margin: 2em 0em 1em;
+}
